@@ -1,0 +1,130 @@
+body{
+	min-height: 3000px;
+}
+
+.bg-nav {
+	background: var(--bs-primary);
+}
+
+.bg-nav .navbar-nav a.nav-link {
+	color: white;
+	font-weight: 500;
+}
+
+.bg-nav .navbar-nav a.nav-link:hover {
+	/* color: blue; */
+	color: var(--bs-black);
+}
+
+.navbar-brand img {
+	width: 80px;
+}
+
+.main-jumbotron{
+	background-color: var(--bs-primary);
+}
+
+.navbar-brand img {
+	width: 80px;
+}
+
+.main-jumbotron {
+	background-color: var(--bs-gray);
+}
+
+/*kolaborasi*/
+h2.judul:after {
+	border-bottom: 10px solid var(--bs-blue);
+	width: 200px;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	content: "";
+	border-radius: 100px;
+}
+
+.kolaborasi img{
+	max-height: 200px;
+	max-width: 180px;
+
+}
+
+/*KEPERCAYAAN*/
+.kepercayaan {
+	background-color: var(--bs-primary);
+	color: var(--bs-white);
+}
+
+/*CARD*/
+.blog {
+	background-color: black;
+}
+
+
+.blog a{
+	text-decoration: none;
+}
+
+.blog a : hover{
+	color: red;
+}
+
+.blog-info{
+	color: #666;
+	position:relative;
+}
+
+.blog .blog-info img{
+	width: 50px;
+	border-radius: 100%;
+	float: left;
+}
+
+
+.blog-info a{
+	margin-left: 10px
+}
+
+.blog-info span {
+margin-left: 15px;
+font-size: 	12px;
+}
+
+ /*LINKS */
+ .links li a{
+ 	color:#fff;
+ }
+
+
+.links li a:hover{
+	color: var(--bs-pink);
+	transition: 0.5s;
+}
+
+/*copyrighyt*/
+.copyright a{
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
